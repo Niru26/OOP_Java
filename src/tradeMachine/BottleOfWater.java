@@ -1,7 +1,7 @@
 package tradeMachine;
 
 public class BottleOfWater extends Product {
-    private double volume;
+    protected double volume;
 
     public double getVolume() {
         return volume;

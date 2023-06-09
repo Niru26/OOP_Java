@@ -1,8 +1,8 @@
 package tradeMachine;
 
 public class BottleOfMilk extends Product {
-    private double volume;
-    private double fatContent;
+    protected double volume;
+    protected double fatContent;
 
     public double getVolume() {
         return volume;

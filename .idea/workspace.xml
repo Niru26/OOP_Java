@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81ffee19-e164-4bd6-aeec-391aa1917493" name="Changes" comment="Create a branch for a workshop 1 in class project">
-      <change afterPath="$PROJECT_DIR$/src/tradeMachine/BottleOfMilk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tradeMachine/BottleOfWater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tradeMachine/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tradeMachine/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tradeMachine/VendingMachine.java" afterDir="false" />
+    <list default="true" id="81ffee19-e164-4bd6-aeec-391aa1917493" name="Changes" comment="Finished work on 1st seminar">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tradeMachine/BottleOfMilk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tradeMachine/BottleOfMilk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tradeMachine/BottleOfWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tradeMachine/BottleOfWater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tradeMachine/VendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tradeMachine/VendingMachine.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685524183190</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Finished work on 1st seminar">
+      <created>1685961547960</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685961547960</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -107,6 +112,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Create a branch for a workshop 1 in class project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create a branch for a workshop 1 in class project" />
+    <MESSAGE value="Finished work on 1st seminar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished work on 1st seminar" />
   </component>
 </project>

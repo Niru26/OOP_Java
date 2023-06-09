@@ -3,7 +3,7 @@ package tradeMachine;
 import java.util.List;
 
 public class VendingMachine {
-    private List<Product> vendingProductsList;
+    protected List<Product> vendingProductsList;
 
     public VendingMachine(List<Product> internalList) {
         this.vendingProductsList = internalList;
