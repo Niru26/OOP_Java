@@ -34,7 +34,8 @@ public class Product {
         } else {
             name = inputName;
         }
-    }Product(String inputName, double inputPrice) {
+    }
+    Product(String inputName, double inputPrice) {
         this("Domestic company", inputName, inputPrice);
     }
 

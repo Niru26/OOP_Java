@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81ffee19-e164-4bd6-aeec-391aa1917493" name="Changes" comment="Finished work on 1st seminar">
+    <list default="true" id="81ffee19-e164-4bd6-aeec-391aa1917493" name="Changes" comment="Start work on homework 1.">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tradeMachine/SodaCan.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tradeMachine/BottleOfMilk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tradeMachine/BottleOfMilk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tradeMachine/BottleOfWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tradeMachine/BottleOfWater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tradeMachine/ChoclateBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tradeMachine/ChocolateBar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tradeMachine/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tradeMachine/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tradeMachine/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tradeMachine/Program.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tradeMachine/VendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tradeMachine/VendingMachine.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,12 +42,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tradeMachine.Program" />
@@ -95,7 +99,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685961547960</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Replace &quot;private&quot; to &quot;protected&quot; in workshop lectures.">
+      <created>1686289683397</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1686289683397</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Start work on homework 1.">
+      <created>1686289855616</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1686289855616</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -113,6 +131,8 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Create a branch for a workshop 1 in class project" />
     <MESSAGE value="Finished work on 1st seminar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished work on 1st seminar" />
+    <MESSAGE value="Replace &quot;private&quot; to &quot;protected&quot; in workshop lectures." />
+    <MESSAGE value="Start work on homework 1." />
+    <option name="LAST_COMMIT_MESSAGE" value="Start work on homework 1." />
   </component>
 </project>

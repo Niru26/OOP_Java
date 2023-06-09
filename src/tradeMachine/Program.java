@@ -15,12 +15,16 @@ public class Program {
         Product bottleOfWater3 = new BottleOfWater("Aksu", "Uzenagash", 250.25, 0.5);
         Product bottleOfMilk1 = new BottleOfMilk("Foodmaster", "Kefir", 499.99, 1, 5);
         Product bottleOfMilk2 = new BottleOfMilk("Pavlodarskoe", "Domashnie", 249.99, 1.5, 2.5);
+        Product chocolateBar1 = new ChocolateBar("Candy Factory", "Choocolator", 350.10, "Strawberry");
+        Product chocolateBar2 = new ChocolateBar("Company inc.", "Mercury", 350.10, "Nuts");
         List<Product> allProducts = new ArrayList<>();
         allProducts.add(bottleOfWater1);
         allProducts.add(bottleOfMilk1);
         allProducts.add(bottleOfWater2);
         allProducts.add(bottleOfMilk2);
         allProducts.add(bottleOfWater3);
+        allProducts.add(chocolateBar1);
+        allProducts.add(chocolateBar2);
 
         VendingMachine vendingMachine = new VendingMachine(allProducts);
         BottleOfWater bottleOfWaterSearchResult = vendingMachine.getBottleOfWater(2);
@@ -36,6 +40,12 @@ public class Program {
             System.out.println(bottleOfMilkSearchResult.displayInfo());
         } else {
             System.out.println("No such bottle in a list");
+        }
+        ChocolateBar chocolateBarSearch = vendingMachine.getChocolateBars("Nuts");
+        if (chocolateBarSearch != null) {
+            System.out.println("This is your bar: " + chocolateBarSearch.displayInfo());
+        } else {
+            System.out.println("No such taste");
         }
     }
 
