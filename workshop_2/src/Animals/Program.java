@@ -2,7 +2,7 @@ package Animals;
 
 public class Program {
     public static void main(String[] args) {
-        Cat cat1 = new Cat("Mittens");
+        Cat cat1 = new Cat("Mittens", "Red-White");
         cat1.voice();
 
         Dog dog1 = new Dog("Balto");
@@ -42,9 +42,19 @@ public class Program {
     }
 
     class Cat extends Animal {
+        private String color;
 
-        public Cat(String name) {
+        public String getColor() {
+            return color;
+        }
+
+        public void setColor(String color) {
+            this.color = color;
+        }
+
+        public Cat(String name, String color) {
             super(name);
+            this.color = color;
         }
 
         @Override
