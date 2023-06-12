@@ -17,6 +17,8 @@ public class Program {
         Product bottleOfMilk2 = new BottleOfMilk("Pavlodarskoe", "Domashnie", 249.99, 1.5, 2.5);
         Product chocolateBar1 = new ChocolateBar("Candy Factory", "Choocolator", 350.10, "Strawberry");
         Product chocolateBar2 = new ChocolateBar("Company inc.", "Mercury", 350.10, "Nuts");
+        Product sodaCan1 = new SodaCan("Pepsi Co", "Pepsi Cola", 390.5, true);
+        Product sodaCan2 = new SodaCan("Pepsi Co", "Coca Cola", 390.5, false);
         List<Product> allProducts = new ArrayList<>();
         allProducts.add(bottleOfWater1);
         allProducts.add(bottleOfMilk1);
@@ -25,6 +27,8 @@ public class Program {
         allProducts.add(bottleOfWater3);
         allProducts.add(chocolateBar1);
         allProducts.add(chocolateBar2);
+        allProducts.add(sodaCan1);
+        allProducts.add(sodaCan2);
 
         VendingMachine vendingMachine = new VendingMachine(allProducts);
         BottleOfWater bottleOfWaterSearchResult = vendingMachine.getBottleOfWater(2);
@@ -47,6 +51,11 @@ public class Program {
         } else {
             System.out.println("No such taste");
         }
+        SodaCan sodaCanCheck = vendingMachine.getSodaCan();
+        if (sodaCanCheck != null) {
+            System.out.println("You bought " + sodaCanCheck.displayInfo() + ", with sugar");
+        } else {
+            System.out.println("You bought " + sodaCanCheck.displayInfo() + ", without any sugar");
+        }
     }
-
 }

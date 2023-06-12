@@ -1,6 +1,5 @@
 package tradeMachine;
 
-import java.sql.Struct;
 import java.util.List;
 
 public class VendingMachine {
@@ -39,11 +38,24 @@ public class VendingMachine {
         for (Product item:
              vendingProductsList) {
             if(item instanceof ChocolateBar) {
-                if(((ChocolateBar) item).getFlavour() == taste) {
+                if(((ChocolateBar) item).getFlavour().equals(taste)) {
                     return (ChocolateBar) item;
                 }
             }
         }
         return null;
     }
+
+    public SodaCan getSodaCan() {
+        for (Product item:
+             vendingProductsList) {
+            if (item instanceof SodaCan) {
+                if (((SodaCan) item).isWithSugar()) {
+                    return  (SodaCan) item;
+                }
+            }
+        }
+        return null;
+    }
+
 }

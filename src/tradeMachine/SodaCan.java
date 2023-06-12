@@ -18,6 +18,6 @@ public class SodaCan extends Product {
 
     @Override
     public String displayInfo() {
-        return String.format("%s: %s - %.2f, volume - %.2f", brand, name, price, withSugar);
+        return String.format("%s: %s - %.2f", brand, name, price);
     }
 }

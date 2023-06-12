@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81ffee19-e164-4bd6-aeec-391aa1917493" name="Changes" comment="Start work on homework 1.">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tradeMachine/SodaCan.java" afterDir="false" />
+    <list default="true" id="81ffee19-e164-4bd6-aeec-391aa1917493" name="Changes" comment="Finished  work on homework 2.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tradeMachine/ChoclateBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tradeMachine/ChocolateBar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tradeMachine/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tradeMachine/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tradeMachine/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tradeMachine/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tradeMachine/SodaCan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tradeMachine/SodaCan.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tradeMachine/VendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tradeMachine/VendingMachine.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -113,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686289855616</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Finished  work on homework 2.">
+      <created>1686293756733</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1686293756733</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -133,6 +137,7 @@
     <MESSAGE value="Finished work on 1st seminar" />
     <MESSAGE value="Replace &quot;private&quot; to &quot;protected&quot; in workshop lectures." />
     <MESSAGE value="Start work on homework 1." />
-    <option name="LAST_COMMIT_MESSAGE" value="Start work on homework 1." />
+    <MESSAGE value="Finished  work on homework 2." />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished  work on homework 2." />
   </component>
 </project>
