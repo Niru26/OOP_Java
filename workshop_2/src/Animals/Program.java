@@ -1,12 +1,33 @@
 package Animals;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Program {
     public static void main(String[] args) {
         Cat cat1 = new Cat("Mittens", "Red-White");
-        cat1.voice();
-
-        Dog dog1 = new Dog("Balto");
+        ((Animal)cat1).voice();
+        ((Animal)cat1).jump();
+        System.out.println(cat1.getColor());
+        System.out.println();
+        Dog dog1 = new Dog("Balto", 12);
         dog1.voice();
+        System.out.println(dog1.getWeight());
+        List<Animal> listOfAnimals = new ArrayList<>();
+        listOfAnimals.add(cat1);
+        listOfAnimals.add(dog1);
+        System.out.println();
+        animalsActions(listOfAnimals);
+    }
+    public static void animalsActions (List<Animal> internalList) {
+        for (Animal item:
+             internalList) {
+            item.voice();
+            item.jump();
+            if (item instanceof Cat) {
+                System.out.println("This is a color, you searched for so long - " + ((Cat) item).getColor());
+            }
+        }
     }
 }
 
@@ -31,13 +52,24 @@ public class Program {
     }
 
     class Dog extends Animal {
-        public Dog(String name) {
+        private int weight;
+
+        public int getWeight() {
+            return weight;
+        }
+
+        public void setWeight(int weight) {
+            this.weight = weight;
+        }
+
+        public Dog(String name, int weight) {
             super(name);
+            this.weight = weight;
         }
 
         @Override
         public void voice() {
-            System.out.println("Dog is barking");
+            System.out.println("Dog barking");
         }
     }
 
