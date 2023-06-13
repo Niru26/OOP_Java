@@ -1,5 +1,7 @@
 package Animals53;
 
+import java.util.ArrayList;
+import java.util.List;
 
 public class ProgramTwo {
     public static void main(String[] args) {
@@ -11,6 +13,20 @@ public class ProgramTwo {
         Dog dog1 = new Dog("Balto", 12);
         dog1.voice();
         System.out.println(dog1.getWeight());
+
+        List<movingOptions> fastestAnimals = new ArrayList<>();
+        fastestAnimals.add(cat1);
+        fastestAnimals.add(dog1);
+    }
+    public static void animalsActions (List<movingOptions> internalList) {
+        for (movingOptions item:
+                internalList) {
+            item.run(10);
+            item.swim(20);
+            if (item instanceof Cat) {
+                System.out.println("This is a color, you searched for so long - " + ((Cat) item).getColor());
+            }
+        }
     }
 }
 
