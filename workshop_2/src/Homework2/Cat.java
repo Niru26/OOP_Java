@@ -4,13 +4,13 @@ public class Cat {
     protected String name;
     protected int appetit;
 
-    protected int bellyful;
+    protected boolean bellyful;
 
-    public int getBellyful() {
+    public boolean getBellyful() {
         return bellyful;
     }
 
-    public void setBellyful(int bellyful) {
+    public void setBellyful(boolean bellyful) {
         this.bellyful = bellyful;
     }
 
@@ -30,11 +30,27 @@ public class Cat {
         this.appetit = appetit;
     }
 
+    public boolean isBellyful() {
+        return bellyful;
+    }
+
+    public Cat(String name) {
+        this.name = name;
+        this.bellyful = false;
+    }
+
     public Cat(String name, int appetit) {
         this.name = name;
         this.appetit = appetit;
+        this.bellyful = false;
     }
-    public void eat() {
 
+    public void eat(Plate plate) {
+        if(plate.removeFood(this.appetit)){
+            System.out.printf("%s ate enough, according it appetite - %s\n", this.name, this.appetit);
+            this.bellyful = true;
+        } else {
+            System.out.println(this.name + " is sad, add demand addition!");
+        }
     }
 }
