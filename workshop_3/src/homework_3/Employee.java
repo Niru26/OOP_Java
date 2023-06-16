@@ -1,6 +1,6 @@
 package homework_3;
 
-public abstract class Employee {
+public abstract class Employee implements Comparable<Employee> {
         protected String name;
         protected String surname;
         protected double salary;
@@ -25,4 +25,13 @@ public abstract class Employee {
 
         public abstract double calculateSalary();
 
+    @Override
+    public int compareTo(Employee o) {
+        int result = name.compareTo(o.name);
+        if (result == 0) {
+            return Double.compare(calculateSalary(), o.calculateSalary());
+        } else {
+            return result;
+        }
+    }
 }
