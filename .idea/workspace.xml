@@ -4,17 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81ffee19-e164-4bd6-aeec-391aa1917493" name="Changes" comment="Start work on workshop 3">
-      <change afterPath="$PROJECT_DIR$/workshop_4/src/task_2_bank_app/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workshop_4/src/task_2_bank_app/CreditAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workshop_4/src/task_2_bank_app/DebetAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workshop_4/src/task_2_bank_app/Entity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workshop_4/src/task_2_bank_app/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workshop_4/src/task_2_bank_app/PersonalData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workshop_4/src/task_2_bank_app/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workshop_4/src/task_2_bank_app/Transaction.java" afterDir="false" />
+    <list default="true" id="81ffee19-e164-4bd6-aeec-391aa1917493" name="Changes" comment="Start work on workshop_4">
+      <change afterPath="$PROJECT_DIR$/workshop_4/src/homework_4/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop_4/src/homework_4/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop_4/src/homework_4/Fruit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop_4/src/homework_4/Orange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop_4/src/homework_4/Program.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop_4/src/task_1/ArrayUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/workshop_4/src/task_1/ArrayUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="workshop_3" />
+        <entry key="$PROJECT_DIR$" value="workshop_2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -50,24 +46,16 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RunManager" selected="Application.task_2_bank_app.Program">
     <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Program" />
-      <module name="workshop_3" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="homework_3.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework_3.Program" />
-      <module name="workshop_3" />
+      <option name="MAIN_CLASS_NAME" value="tradeMachine.Program" />
+      <module name="workshop_homework_1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework_3.*" />
+          <option name="PATTERN" value="tradeMachine.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +63,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="static_example.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="static_example.Program" />
-      <module name="workshop_3" />
+    <configuration name="ProgramTwo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Animals53.ProgramTwo" />
+      <module name="workshop_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="static_example.*" />
+          <option name="PATTERN" value="Animals53.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProgramTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Animals53.ProgramTwo" />
+      <module name="workshop_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Animals53.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="task_1.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task_1.Program" />
+      <module name="workshop_4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,9 +118,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.task_2_bank_app.Program" />
-        <item itemvalue="Application.homework_3.Program" />
-        <item itemvalue="Application.static_example.Program" />
+        <item itemvalue="Application.task_1.Program" />
         <item itemvalue="Application.Program" />
+        <item itemvalue="Application.ProgramTwo (1)" />
+        <item itemvalue="Application.ProgramTwo" />
       </list>
     </recent_temporary>
   </component>
@@ -119,12 +134,12 @@
       <option name="presentableId" value="Default" />
       <updated>1685523718270</updated>
     </task>
-    <task id="LOCAL-00001" summary="Start work on workshop 3">
-      <created>1686821360220</created>
+    <task id="LOCAL-00001" summary="Start work on workshop_4">
+      <created>1687180951686</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1686821360220</updated>
+      <updated>1687180951686</updated>
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
@@ -134,26 +149,14 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="workshop_3" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Start work on workshop 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start work on workshop 3" />
+    <MESSAGE value="Start work on workshop_4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Start work on workshop_4" />
   </component>
 </project>
