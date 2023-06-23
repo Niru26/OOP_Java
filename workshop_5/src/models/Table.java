@@ -7,6 +7,7 @@ public class Table {
     private static int counter;
     private final int tableNumber;
     private final Collection<Reservation> reservations = new ArrayList<>();
+
     public Collection<Reservation> getReservations() {
         return reservations;
     }
